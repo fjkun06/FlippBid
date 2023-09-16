@@ -9,7 +9,7 @@ const InstagramIcon = ({ className }: { className?: string }) => {
       width={18}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 16.58 15.73"
-      className={`text-white hover:text-secondary transition-colors ${className}`}
+      className={`text-white hover:text-primary sm:hover:text-secondary transition-colors ${className}`}
     >
       <path
         d="M77.75-16.8a.93.93,0,0,1,1,.91.94.94,0,0,1-1,.92.93.93,0,0,1-1-.92A1,1,0,0,1,77.75-16.8Z"
