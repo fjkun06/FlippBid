@@ -14,7 +14,6 @@ const Text = ({
   italic = false
 }: ITextProps) => {
   const commonStyles = {
-    fontWeight: bold ? "bold" : "normal",
     fontStyle: italic ? "italic" : "normal"
   };
 
