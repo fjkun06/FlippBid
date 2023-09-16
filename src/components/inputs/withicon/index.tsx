@@ -2,7 +2,7 @@ import React from "react";
 import { Text } from "../..";
 import { IIconInput } from "./interface";
 
-const IconInput: React.FC<IIconInput> = ({
+const index: React.FC<IIconInput> = ({
   label,
   className,
   error,
@@ -48,4 +48,4 @@ const IconInput: React.FC<IIconInput> = ({
   );
 };
 
-export default IconInput;
+export default index;

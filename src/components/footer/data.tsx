@@ -1,4 +1,12 @@
-import { AppleIcon, FacebookIcon, InstagramIcon, PlayStoreIcon, TwitterIcon, YoutubeIcon } from "../icons";
+
+import {
+  AppleIcon,
+  FacebookIcon,
+  InstagramIcon,
+  PlayStoreIcon,
+  TwitterIcon,
+  YoutubeIcon,
+} from "components/icons";
 
 export const icons = [
   {

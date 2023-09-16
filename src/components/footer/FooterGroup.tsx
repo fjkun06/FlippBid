@@ -1,5 +1,5 @@
+import Text from "components/text";
 import React from "react";
-import { Text } from "..";
 
 const FooterGroup = ({
   children,

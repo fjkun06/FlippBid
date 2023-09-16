@@ -1,5 +1,5 @@
 import Content from "./Content";
-import { Footer, Navbar } from "./components";
+import { Footer, Navbar } from "components";
 
 export default function Home() {
   return (

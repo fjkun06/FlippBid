@@ -1,7 +1,7 @@
 import React from "react";
-import { FlippBidIcon, GridIcon } from "../icons";
 import NavbarItem from "./navitem";
-import { Button } from "..";
+import {Button} from "components";
+import { FlippBidIcon, GridIcon } from "components/icons";
 
 const Navbar = () => {
   return (

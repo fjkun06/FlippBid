@@ -1,6 +1,6 @@
 import React from 'react'
 import { INavbarItem } from './interface'
-import { Text } from '../..'
+import {Text} from 'components'
 
 const NavbarItem: React.FC<INavbarItem> = ({ text, active, route }) => {
   const isActive = active ? "text-orange" : "text-white"

@@ -1,10 +1,9 @@
 import React from "react";
 import FooterGroup from "./FooterGroup";
 import FooterGroupItem from "./FooterGroupItem";
-import { IconInput, Text } from "..";
 import { footerOptions, icons, stores } from "./data";
-import { AppleIcon, EnvelopIcon, PlayStoreIcon } from "../icons";
-import StoreButton from "../button/store";
+import { EnvelopIcon } from "components/icons";
+import { IconInput, StoreButton, Text } from "components";
 
 const Footer = () => {
   return (
