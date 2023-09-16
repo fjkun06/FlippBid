@@ -4,3 +4,5 @@ export { default as YoutubeIcon } from "./youtube";
 export { default as FacebookIcon } from "./facebook";
 export { default as InstagramIcon } from "./instagram";
 export { default as TwitterIcon } from "./twitter";
+export { default as GridIcon } from "./grid";
+export { default as EnvelopIcon } from "./envelop";

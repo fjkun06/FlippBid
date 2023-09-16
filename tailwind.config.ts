@@ -15,13 +15,14 @@ const config: Config = {
       colors: {
         primary: "#1B3F71",
         secondary: "#00c4e2",
-        orange: "#F79214"
+        orange: "#F79214",
+        grey:"#979797"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
       },
       screens: {
-        // s1200: "1200px",
+        s1200: "1200px",
       },
     }
   },
