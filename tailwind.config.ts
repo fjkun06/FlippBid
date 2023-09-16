@@ -21,7 +21,7 @@ const config: Config = {
         'poppins': ['Poppins', 'sans-serif']
       },
       screens: {
-        s1200: "1200px",
+        // s1200: "1200px",
       },
     }
   },

@@ -13,32 +13,32 @@ const FlippBidIcon = ({className}:{className?:string}) => {
   <path d="M169.95 46.7266L167.537 43.4271L166.641 44.3807V46.7266H164.934V39.0117H166.641V42.3971L169.788 39.0117H171.847L168.691 42.3018L172 46.7266H169.95Z" fill="url(#paint6_linear_6029_10051)"/>
   <defs>
     <linearGradient id="paint0_linear_6029_10051" x1="48.2668" y1="43.8943" x2="289.604" y2="31.4398" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
     <linearGradient id="paint1_linear_6029_10051" x1="48.3146" y1="44.724" x2="289.652" y2="32.2695" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
     <linearGradient id="paint2_linear_6029_10051" x1="48.3513" y1="45.4392" x2="289.688" y2="32.9848" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
     <linearGradient id="paint3_linear_6029_10051" x1="48.4001" y1="46.3741" x2="289.737" y2="33.9196" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
     <linearGradient id="paint4_linear_6029_10051" x1="48.4479" y1="47.385" x2="289.786" y2="34.9304" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
     <linearGradient id="paint5_linear_6029_10051" x1="48.4956" y1="48.252" x2="289.833" y2="35.7975" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
     <linearGradient id="paint6_linear_6029_10051" x1="48.5326" y1="49.0821" x2="289.879" y2="36.6181" gradientUnits="userSpaceOnUse">
-      <stop offset="0.21" stop-color="#F69200"/>
-      <stop offset="1" stop-color="#EF5B29"/>
+      <stop offset="0.21" stopColor="#F69200"/>
+      <stop offset="1" stopColor="#EF5B29"/>
     </linearGradient>
   </defs>
 </svg>
