@@ -11,12 +11,19 @@ const config: Config = {
       backgroundImage: (theme) => ({
         'gradient-primary': `linear-gradient(270deg, #00c4e2 13.09%, #1B3F71 74.33%)`
       })
-,
+      ,
       colors: {
         primary: "#1B3F71",
-        secondary:"#00c4e2"
-      }
-    },
+        secondary: "#00c4e2",
+        orange: "#F79214"
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
+      screens: {
+        s1200: "1200px",
+      },
+    }
   },
   plugins: [],
 }
