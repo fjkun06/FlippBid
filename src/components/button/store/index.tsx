@@ -1,11 +1,10 @@
 import React from "react";
 import { Text } from "../..";
-import { PlayStoreIcon } from "../../icons";
 import { IStoreButton } from "./interface";
 
-const StoreButton: React.FC<IStoreButton> = ({ icon, title, store }) => {
+const StoreButton: React.FC<IStoreButton> = ({ icon, title, store,className,...rest }) => {
   return (
-    <div className="flex gap-2 p-[10px] bg-white rounded-[4px] min-w-[160px] justify-center w-max h-[51px]">
+    <div {...rest} className={`cursor-pointer flex gap-2 p-[10px] bg-white hover:bg-blue1 transition-colors rounded-[4px] min-w-[160px] justify-center w-max h-[51px] ${className}`}>
       {icon}
       <span className="flex flex-col items-start gap-0 pr-3">
         <Text

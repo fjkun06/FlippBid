@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="flex gap-[45px]">
             {["Free Trial", "Get ARV", "Pricing", "Verified Investments"].map(
               (el, index) => (
-                <NavbarItem text="Free Trial" active={index === 0} key={el} />
+                <NavbarItem text={el} active={index === 0} key={el} />
               )
             )}
           </div>
