@@ -1,4 +1,4 @@
-import { StoreButton, Text } from "components";
+import { HeaderCard, StoreButton, Text } from "components";
 import { stores } from "components/footer/data";
 import Image from "next/image";
 import React from "react";
@@ -20,7 +20,7 @@ const Header = () => {
               type="span"
             />
           </div>
-          <div className="">
+          <div className="relative">
             <Image
               priority
               className="aspect-auto w-[328px] sm:w-[643px] h-[272px] sm:h-[512px]"
@@ -29,6 +29,24 @@ const Header = () => {
               height={532}
               quality={100}
               alt="man-sorrounded-by-orbits"
+            />
+            <HeaderCard
+              className="-right-[26px] sm:right-[20px] lg-right-[33px] bottom-1 sm:bottom-[33px] !w-[147px] sm:!w-[225px] !h-[76px] sm:!h-[103px]"
+              title="Find My Deal"
+              description="Get Full Property, Data, Comps, ARV's, Ownership Info, Foreclosure Status and MLS Listing within seconds!"
+              borderColor="grey"
+            />
+            <HeaderCard
+              className="-right-[31px] sm:right-[14px] top-[70px] lg:-right-[82px] sm:top-[160px] !w-[138px] !h-[76px] sm:!w-[204px] sm:!h-[100px]"
+              title="Sell My Deal"
+              description="Showcase your property to our Community of Buyers, with Full Property Data, Pictures, Video Walkthroughs."
+              borderColor="secondary"
+            />
+            <HeaderCard
+              className="lg:!gap-2 -left-8 sm:left-[35px] lg:-left-[95px] bottom-1 sm:bottom-[33px] lg:bottom-[93px]"
+              title="Verified Deals"
+              description="Get Live Email, Text, App Notifications DIRECT from the Contract Holders. No Brokers, No Middlemen, No Spam!"
+              borderColor="gradient"
             />
           </div>
         </div>
