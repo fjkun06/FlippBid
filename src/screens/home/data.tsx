@@ -38,3 +38,14 @@ export const appDesc = [
       "leading-[18.22px] font-semibold text-[17px] text-orange cursor-pointer",
   },
 ];
+
+export const caclSection = [
+  {
+    text: "Get Your Property ARV and Comp's for ",
+    style: "text-white",
+  },
+  {
+    text: "FREE",
+    style: "text-orange",
+  },
+];

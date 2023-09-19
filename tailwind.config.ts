@@ -11,6 +11,7 @@ const config: Config = {
         'gradient-primary': `linear-gradient(270deg, #00c4e2 13.09%, #1B3F71 74.33%)`,
         'gradient-header': `linear-gradient(270deg, #A049E9 36.04%, #00ADDC 70.91%)`,
         'gradient-header-card': `linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(rgb(190, 54, 235), rgb(0, 196, 226))`,
+         'calculate': "url('/home/calc.png')"
       })
       ,
       colors: {

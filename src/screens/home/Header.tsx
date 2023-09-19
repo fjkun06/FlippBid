@@ -6,7 +6,7 @@ import { appDesc, headerCards } from "./data";
 
 const Header = () => {
   return (
-    <header className="w-full flex flex-col h-max ">
+    <header className="w-full flex flex-col h-max mb-5 s1400:m-0">
       <div className="w-full pt-5 s1400:pt-0 h-max s1400:!h-[625px] bg-blue1 rounded-b-[56px] flex items-center justify-center">
         <div className="max-w-[1300px] h-max bg-red-5000 s1400:h-full w-full items-center s1400:items-end flex justify-center s1400:justify-between  flex-col s1400:flex-row">
           <div className="w-screen px-5 sm:px-10 lg:px-0 lg:w-[870px] s1400:w-[576px] h-max s1400:h-[216px] self-center">
