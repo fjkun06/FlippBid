@@ -1,3 +1,8 @@
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +22,35 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+}
+
+/* width */
+body ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+body ::-webkit-scrollbar-track {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.6); 
+  /* // border-radius: 10px; */
+background: #00c4e2;
+
+}
+ 
+/* Handle */
+body ::-webkit-scrollbar-thumb {
+  background: #1B3F71; 
+  border-radius: 100px;
+
+}
+
+/* Handle on hover */
+body ::-webkit-scrollbar-thumb:hover {
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 480px) {
+  body ::-webkit-scrollbar {
+display: none;  }
 }
