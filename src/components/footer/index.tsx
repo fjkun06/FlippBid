@@ -46,7 +46,7 @@ const Footer = () => {
               placeholder="email"
             />
             <div className="flex w-max gap-3 mt-[19px]">
-              {icons.map(({ route, icon }, i) => (
+              {icons.map(({ icon }, i) => (
                 <span
                   className="sm:w-max cursor-pointer sm:h-6 flex items-center justify-center w-[43px] h-[43px] rounded-full bg-secondary sm:bg-transparent"
                   key={i}

@@ -10,7 +10,6 @@ const Text = ({
   onClick,
   type = "normal",
   isGradient = false,
-  bold = false,
   italic = false
 }: ITextProps) => {
   const commonStyles = {

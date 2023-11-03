@@ -3,7 +3,6 @@ import React from "react";
 
 const FooterGroupItem = ({
   text,
-  route,
   className,
 }: {
   text: string;
