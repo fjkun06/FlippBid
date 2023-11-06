@@ -1,9 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FlippBidd Landing Page
 
-## Getting Started
+## Project Overview
+Developed the FlippBidd landing page, a stunning showcase of frontend development skills. This aesthetically pleasing landing page was 
+meticulously designed and developed to be pixel-perfect, highlighting proficiency in React, TypeScript, HTML5, CSS (SCSS), Next.js, and Figma.
 
-First, run the development server:
+Live Version [here.](https://flipp-bid.vercel.app/)
 
+## Technologies Used
+- HTML5, CSS (SCSS), React JS, TypeScript, Next.js, SVG, Figma.
+
+
+## Achievements
+-	**Pixel-Perfect Design:** Ensured the landing page design was pixel-perfect, providing an impeccable user experience.
+-	**Creative Design:** Crafted a visually appealing and unique landing page that captivated users.
+-	**Problem Solving:** Successfully addressed and resolved various challenges to achieve the desired outcome.
+-	**Timely Delivery:** Completed the project within the established timeline, meeting project goals and expectations.
+-	**Effective Collaboration:** Actively collaborated with the team, ensuring the project's success through teamwork.
+
+  
+## Skills
+
+#### Soft Skills
+-	Attention to Detail
+-	Creativity
+-	Problem Solving
+-	Time Management
+-	Effective Communication
+
+
+## How to run
+First, install the packages:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 ```bash
 npm run dev
 # or
@@ -14,21 +48,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
