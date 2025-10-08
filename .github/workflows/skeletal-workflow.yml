@@ -22,7 +22,13 @@ jobs:
           super_secret: ${{secrets.MY_SECRET}}
     steps:
       - name: Compare keys
-        run: echo "$super_secret" == "$KEY" + "  $name"
+        run: |
+              if [[ "$super_secret" == "$KEY" ]]; then
+                compare_result=true
+              else
+                compare_result=false
+              fi
+              echo "a > b is $compare_result by $name"
         env:
           name: Madhaus
   test1:
