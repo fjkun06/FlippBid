@@ -3,6 +3,9 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    branches:
+      - main
 concurrency:
   group: test_x
   cancel-in-progress: false
@@ -11,12 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step one
-      - run: echo "i am step 1"
+        run: echo "i am step 1"
   test2:
     needs: [test1]
     runs-on: ubuntu-latest
     steps:
       - name: step two
-      - run: echo "i am only running after test1"
-      - run: echo "i am step 2"
+        run: |
+              echo "i am only running after test1"
+              echo "i am step 2"
+         
+
     
