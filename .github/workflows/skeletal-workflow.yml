@@ -1,4 +1,5 @@
 name: Learn Github Actions
+
 on: 
   pull_request:
     branches:
@@ -6,10 +7,24 @@ on:
   push:
     branches:
       - main
+      
 concurrency:
   group: test_x
   cancel-in-progress: false
+
+env:
+  KEY: 12345
+
 jobs:
+  test-var:
+    runs-on: ubuntu-latest
+    env:
+          super_secret: ${{secrets.MY_SECRET}}
+    steps:
+      - name: Compare keys
+        run: echo "$super_secret" == "$KEY" + "  $name"
+        env:
+          name: Madhaus
   test1:
     runs-on: ubuntu-latest
     steps:
@@ -65,7 +80,7 @@ jobs:
         run: |
               echo "i am only running after test1"
               echo "i am step 2"
-      
-         
+        
+           
 
     
